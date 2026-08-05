@@ -1,101 +1,88 @@
-## Healthy Bites – Manual Test Plan
-1. Project Overview
-Healthy Bites is a simple web application designed to help users browse healthy recipes, register an account, and access nutrition‑focused content.
+# Healthy Bites – Manual Test Plan
+
+## 1. Project Overview
+Healthy Bites is a simple web application designed to help users browse healthy recipes, register an account, and access nutrition‑focused content.  
 This test plan outlines the manual testing approach to ensure the website is functional, usable, and stable.
 
-2. Scope of Testing
-In Scope
-UI testing
+---
 
-Functional testing
+## 2. Scope of Testing
 
-Navigation testing
+### In Scope
+- UI testing  
+- Functional testing  
+- Navigation testing  
+- Form validation  
+- Content verification  
+- Cross‑browser testing (Chrome, Edge)  
+- Responsive testing (desktop only)
 
-Form validation
+### Out of Scope
+- Mobile testing  
+- Performance testing  
+- Security testing  
+- Backend/API testing (no backend available)
 
-Content verification
+---
 
-Cross‑browser testing (Chrome, Edge)
+## 3. Test Objectives
+- Verify all pages load correctly  
+- Ensure navigation links work  
+- Validate form fields on the Register page  
+- Confirm images and content display correctly  
+- Check error messages appear when expected  
+- Ensure user experience is consistent across pages
 
-Responsive testing (desktop only)
+---
 
-Out of Scope
-Mobile testing
-
-Performance testing
-
-Security testing
-
-Backend/API testing (no backend available)
-
-3. Test Objectives
-Verify all pages load correctly
-
-Ensure navigation links work
-
-Validate form fields (Register page)
-
-Confirm images and content display correctly
-
-Check error messages appear when expected
-
-Ensure user experience is consistent
-
-4. Test Items
+## 4. Test Items
 Pages included in testing:
+- `index.html`  
+- `recipes.html`  
+- `register.html`  
+- CSS, JS, and image assets
 
-index.html
+---
 
-recipes.html
+## 5. Test Approach
+- Manual exploratory testing  
+- Structured test cases  
+- Positive and negative testing  
+- Boundary value testing (for form fields)  
+- Visual inspection for layout issues
 
-register.html
+---
 
-CSS, JS, and image assets
+## 6. Test Environment
+- **OS:** Windows 10 / Windows 11  
+- **Browsers:** Chrome (latest), Edge (latest)  
+- **Tools:** Browser DevTools, GitHub
 
-5. Test Approach
-Manual exploratory testing
+---
 
-Structured test cases
+## 7. Risks & Assumptions
 
-Positive and negative testing
+### Risks
+- No backend → limited functional testing  
+- No authentication → limited security testing  
+- Static website → no dynamic data validation
 
-Boundary value testing (for form fields)
+### Assumptions
+- All content is static  
+- No server‑side validation  
+- No database integration
 
-Visual inspection for layout issues
+---
 
-6. Test Environment
-OS: Windows 10 / Windows 11
+## 8. Deliverables
+- Test Plan  
+- Test Cases  
+- Bug Reports  
+- Screenshots  
+- Automation (Selenium C#)
 
-Browsers: Chrome (latest), Edge (latest)
+---
 
-Tools: Browser DevTools, GitHub
-
-7. Risks & Assumptions
-Risks
-No backend → limited functional testing
-
-No authentication → limited security testing
-
-Static website → no dynamic data validation
-
-Assumptions
-All content is static
-
-No server‑side validation
-
-No database integration
-
-8. Deliverables
-Test Plan
-
-Test Cases
-
-Bug Reports
-
-Screenshots
-
-Automation (Selenium C#)
-
-9. Approval
-Prepared by: Rayan (QA Engineer)  
-Reviewed by: N/A – personal project
+## 9. Approval
+Prepared by: **Thilini (QA Engineer)**  
+Reviewed by: *N/A – personal project*
