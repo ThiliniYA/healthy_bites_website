@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Bites - Register</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+     
+       <nav class="navbar">
+    <div class="logo">
+              <a href="index.html">HEALTHY BITES</a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="register.html">Register</a></li>
+    </ul>
+</nav>
+        <br>
+        <br>
+    
+    
+    <main>
+        <section class="registration-form">
+            <h2>Join Our Community</h2>
+            <img src="images/cooking5.jpg" alt="Person cooking healthy food" class="form-img">
+            
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required pattern="[A-Za-z]+">
+                </div>
+                
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required pattern="[A-Za-z]+">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password (6-12 characters):</label>
+                    <input type="password" id="password" name="password" required minlength="6" maxlength="12">
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+                
+                <button type="submit">Register</button>
+            </form>
+            
+            <p id="message"></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Thilini Amarasekara : August 21, 2025</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
