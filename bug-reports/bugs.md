@@ -15,7 +15,7 @@ The registration form accepts invalid email formats (e.g., "abc", "user@com") wi
 
 ### Steps to Reproduce  
 1. Navigate to `register.html`  
-2. Enter an invalid email (e.g., `abc123`)  
+2. Enter an invalid email (e.g., `a@b.com`)  
 3. Click **Submit**
 
 ### Expected Result  
