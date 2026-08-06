@@ -12,7 +12,7 @@ This project shows how I test a simple website from start to finish.
 - A static website with three pages  
 - Manual testing (test plan, test cases, bug reports, summary)  
 - Real defects found during testing  
-- Beginner‑friendly automation (Selenium C#) – coming soon  
+- Automation (Selenium C#)  
 - Clean folder structure  
 - Screenshots and documentation  
 
@@ -58,7 +58,7 @@ These bugs are documented with steps, expected results, and actual results.
 
 ---
 
-## 🤖 Automation (Coming Soon)
+## 🤖 Automation 
 
 I will add simple Selenium C# tests to show:
 
