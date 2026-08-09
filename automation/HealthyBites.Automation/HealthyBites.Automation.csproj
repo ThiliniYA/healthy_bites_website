@@ -31,7 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Drivers\" />
     <Folder Include="Config\" />
     <Folder Include="Utilities\" />
     <Folder Include="Tests\" />
