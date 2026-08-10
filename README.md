@@ -1,9 +1,16 @@
 # Healthy Bites – QA Portfolio Project
 
-Healthy Bites is a small website I created during my deploma to practise cording (HTML, CSS and Java).  
+Healthy Bites is a small website I created during my diploma to practise coding (HTML, CSS and Java).  
 I used this project to show how I approach manual testing, write test cases, report bugs, and build simple automation.
 
 This project represents my QA skills as a beginner learning automation.
+
+---
+## 🖼️ Preview
+
+| Home | Recipes | Register |
+|---|---|---|
+| ![Home page](docs/readme-screenshots/home.png) | ![Recipes page](docs/readme-screenshots/recipes.png) | ![Register page](docs/readme-screenshots/register.png) |
 
 ---
 
