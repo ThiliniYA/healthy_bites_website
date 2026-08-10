@@ -10,7 +10,7 @@ This project represents my QA skills as a beginner learning automation.
 
 | Home | Recipes | Register |
 |---|---|---|
-| ![Home page](docs/readme-screenshots/home.png) | ![Recipes page](docs/readme-screenshots/recipes.png) | ![Register page](docs/readme-screenshots/register.png) |
+| ![Home page](docs/readme-screenshots/Home.png) | ![Recipes page](docs/readme-screenshots/Recipes.png) | ![Register page](docs/readme-screenshots/Register.png) |
 
 ---
 
